@@ -1,0 +1,142 @@
+body{
+    /*background-image: url('../img/bliss.jpg');
+    background-repeat:no-repeat ;*/
+    background-color: #e3b3c7;
+    background-size:cover;
+  }
+
+
+#rectangle{
+  width: 950px;
+  height: 3000px;
+  background-color: #e3b3c7;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  margin-left: 70px;
+}
+
+.sidenav {
+  height:auto;
+  width:150px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 2; /* Stay on top */
+  top:0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: #00000000;
+  margin-left:2%;
+}
+    
+    /* The navigation menu links */
+    .sidenav a {
+      padding: 30px 10px;
+      text-decoration: none;
+      font-style:italic;
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+      display: block;
+  
+    }
+  
+    .sidenav a:hover {
+      cursor: pointer;
+      text-decoration:underline;
+    }
+    
+    
+    /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+  
+
+    .header {
+      max-width:1000px;
+      margin:auto;
+      margin-left:250px;
+      text-align:left;
+      color:rgb(242, 129, 165);
+      font-size:34px;
+      background: -webkit-linear-gradient(rgb(107, 141, 255), #4345c6);
+      -webkit-background-clip: text;
+      background-clip:auto;
+      -webkit-text-fill-color: transparent;
+      line-height:1.6em;
+      height:100px;
+
+        }
+
+    .subtitle{
+      max-width:560px;
+      margin:auto;
+      margin-left:250px;
+      text-align:left;
+      color:#4345c6;
+      position:relative;
+      font-size:20px;
+      top:-50px;
+
+  }
+
+    #container{
+      margin:auto;
+      text-align:left;
+      color:#000000;
+      font-family:Helvetica, sans-serif;
+      font-size: 14px;
+      line-height: 1.5em;
+      max-width:560px;
+      margin-left:250px;
+      position:relative;
+      z-index:1;
+      margin-top:-40px;
+    }
+
+   div {
+      font-family: myFirstFont;
+    } 
+  @font-face {
+      font-family: myFirstFont;
+      src: url(../css/terminal-grotesque.ttf);
+      font-size: 60px;
+    }
+  
+  .paragraph{
+      display: grid;
+      font-family:helvetica;
+      color:#000000;
+      grid-template-columns: 85% 25%;
+      grid-column-gap:20px;
+  }
+  .links{
+      font-family:helvetica;
+      color:#18052c;
+ 
+  }
+
+.image-container{
+    height:20px;
+    padding-left:75px;
+  }
+
+.footer{
+  position:fixed;
+  top:95%;
+  left:-8px;
+  z-index:1;
+}
+  
+.links a{
+  color:#18052c;
+  text-decoration:none;
+}
+
+.links a:hover{
+  color:rgba(74, 21, 196, 0.463);
+}
+
+  
+ 
